@@ -1,0 +1,20 @@
+{
+  "fitbit": {
+    "appUUID": "0ceeec8a-fdcb-4e8f-972d-c0b3eeb06bc4",
+    "appType": "app",
+    "appDisplayName": "HR-Meter",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#00bcd4",
+    "requestedPermissions": [
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "HR-Meter"
+      }
+    }
+  }
+}
