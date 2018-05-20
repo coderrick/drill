@@ -16,5 +16,17 @@ CREATE TABLE drill_users (
   leader BOOLEAN NOT NULL
 );
 
+-- CREATE TABLE d_comments (
+--     c_id serial PRIMARY KEY,
+--     FOREIGN KEY (c_id) INTEGER REFERENCES drill_users(e_id),
+--     comments VARCHAR(500)
+-- );
+
 INSERT INTO drill_users (e_id, usr_name, locations, heart_rate, metab_rate, calories, height, weight, friends, leader)
-VALUES (923824832042032932, 'h_tg', '(12.4,11.2)', '80/120', '45s', '3000', '60', '200lbs', 'j_doe', TRUE);
+VALUES (923824832042032932, 'h_tg', '(12.4,11.2)', '80/120', '45s', '3000', '60', '200lbs', '', TRUE);
+
+INSERT INTO drill_users (e_id, usr_name, locations, heart_rate, metab_rate, calories, height, weight, friends, leader)
+VALUES (1238242232032932, 'joggin_guy', '(11.4,10.234)', '80/120', '45s', '3000', '60', '200lbs', 'h_tg', FALSE);
+
+-- INSERT INTO d_comments(e_id, comments)
+-- VALUES (923824832042032932, 'Hi everybody join me at central park for dead lifts');
