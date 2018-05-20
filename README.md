@@ -8,17 +8,16 @@ Drill is a fitness dApp we built at AngelHack Manhattan that promotes Body-weigh
 ## Installation
 `git clone [this repo]`
 
-#Blockchain setup
-`cd blockchain/; ./setup.sh`
-`testrpc`
-`run truffle commands`
-dependecies include 
+BLOCKCHAIN SETUP:\
+`cd blockchain/; ./setup.sh`\
+`testrpc`\
+`run truffle commands`\
 
-#Database setup
+DATABASE SETUP:\
 Must have cockroachdb installed!
-`cd to db`
-`cockroach start --insecure` *must be done in separate terminal
-`cockroach sql --insecure --database=drill < schema.sql` *Initializing the db's and tables
+`cd to db`\
+`cockroach start --insecure` *must be done in separate terminal\
+`cockroach sql --insecure --database=drill < schema.sql` *Initializing the db's and tables\
 
 # Try it!
 
