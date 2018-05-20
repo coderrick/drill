@@ -7,12 +7,13 @@
     gradient-color1="lightblue" gradient-color2="lightblue" />
   <image href="Assets/blueLogo.png" width="150" height="200" x="100" y="40" load="sync"/>
   <text class="labels" y="12%">Activity Report</text>
-  <text id="items" y="22%"><image href="Assets/HeartRate.png" x="3%" y="16%" height="20" width="20" load="sync"/>Avg HR:--</text>
-  <text id="items" y="32%"><image href="Assets/Metabolic.png" x="3%" y="28%" height="20" width="20" load="sync"/>Avg Metabolic:--</text>
-  <text id="items" y="42%"><image href="Assets/food.png"      x="3%" y="38%" height="20" width="20" load="sync"/>Avg Caloric:--</text>
-  <text class="labels" y="62%">Progress</text>
-  <text id="items" y="72%"><image href="Assets/goal.png" x="3%" y="68%" height="20" width="20" load="sync"/>Your projected goal: to lose - lbs</text>
-  <text id="items" y="82%"><image href="Assets/checkmark.png" x="3%" y="78%" height="20" width="20" load="sync"/>Predicted #days of workout till goal:</text>
-  <rect id="progressBar" x="10%" y="85%" width="234" height="15" fill="black" />
-
+  <text id="heartrate" y="22%"><image href="Assets/HeartRate.png" x="3%" y="16%" height="20" width="20" load="sync"/>Avg HR: </text>
+  <text id="metabolic" y="32%"><image href="Assets/Metabolic.png" x="3%" y="26%" height="20" width="20" load="sync"/>Avg Metabolic: </text>
+  <text id="food" y="42%"><image href="Assets/food.png"      x="3%" y="36%" height="20" width="20" load="sync"/>Avg Caloric: </text>
+  <text class="labels" y="62%">Progress Estimation by ML</text>
+  <text id="items" y="72%"><image href="Assets/goal.png" x="3%" y="67%" height="20" width="20" load="sync"/>Your projected goal: to lose - lbs</text>
+  <text id="items" y="82%"><image href="Assets/checkmark.png" x="3%" y="77%" height="20" width="20" load="sync"/>#days of workout till goal:</text>
+  <rect id="progress_static"  x="10%" y="85%" width="250" fill="darkgray" />
+  <rect id="progress_dynamic" x="10%" y="85%" width="234" fill="black" />
+<!--   <text id="lab_dynamic" x="12.5%+250" y="91%">XX%</text> -->
 </svg>
