@@ -1,3 +1,4 @@
+/* Text element */
 text { 
   font-family: System-Bold; 
   fill: white;
@@ -13,3 +14,33 @@ text#items {
   font-size: "20"; 
   x:"10%" 
 }
+
+text#heartrate { 
+  font-size: "20"; 
+  x:"10%" 
+}
+
+text#metabolic { 
+  font-size: "20"; 
+  x:"10%" 
+}
+
+text#food { 
+  font-size: "20"; 
+  x:"10%" 
+}
+
+text#lab_dynamic { 
+  font-size: "20";
+}
+
+/* Progress bar (element rect) */
+rect {
+  height: "15"
+}
+
+/* rect#progress_dynamic{
+  opacity: 0.80
+} */
+
+
