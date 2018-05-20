@@ -1,5 +1,5 @@
 # Drill
-![alt text](Assets/DRILL_Logo_SVG.svg)
+![alt text](Assets/drill.png)
 
 ## Overview
 
@@ -7,8 +7,7 @@ Drill is a fitness dApp we built at AngelHack Manhattan that promotes Body-weigh
  
 
 ## Features
-
-* The app integrates with the FitBit Ionic and is powered by the **Etherium Blockchain** smart contracts handle montly subscription. Moreover, we feature:
+The app integrates with the FitBit Ionic and is powered by the **Etherium Blockchain** smart contracts handle montly subscription. Moreover, we feature:
 	- Social platform for members
 	- Web application good for mobile and desktop use
   - Broadcast where your exercising to form a group, or join one.
