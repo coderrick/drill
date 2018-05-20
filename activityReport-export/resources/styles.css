@@ -1,0 +1,15 @@
+text { 
+  font-family: System-Bold; 
+  fill: white;
+}
+
+text.labels { 
+  font-size: "25"; 
+  font-weight: "bold";
+  x:"5%" 
+}
+
+text#items { 
+  font-size: "20"; 
+  x:"10%" 
+}
