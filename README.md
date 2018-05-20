@@ -24,3 +24,5 @@ cd to db/
 # Try it!
 
 Take a look at our Beta web app [HERE!](http://www..com/)
+
+[![Build Status](https://travis-ci.org/coderrick/drill.svg?branch=master)](https://travis-ci.org/coderrick/drill)
