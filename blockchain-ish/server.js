@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-app.listen(8080, () => {
+app.listen(3000, () => {
     console.log('App listening on port 8080');
     console.log(ip.address());
 });
